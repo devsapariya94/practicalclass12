@@ -1,5 +1,5 @@
 import mysql.connector as sqlcon
-mycon=sqlcon.connect(host="localhost", user="root", password="942003", database="dev")
+mycon=sqlcon.connect(host="localhost", user="root", password="pass", database="test")
 cur=mycon.cursor()
 t=int(input("enter number of record you have to enter: "))
 for i in range (t):
